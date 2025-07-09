@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Gil - Jornalista Esportivo</title>
+    <!-- Adicionando as fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Gabriel Gil</h1>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#articles">Reportagens</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="https://www.linkedin.com/in/gabriel-gil-636259241/" target="_blank"
+                        alt="LinkedIn">Linkedin</a></li>
+                <li><a href="./assets/cv.pdf" target="_blank" alt="Currículo">Currículo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="./assets/Gil.jpg" alt="Gabriel Gil">
+            <h1>Gabriel Gil</h1>
+            <div class="hero-text">
+                <p>Apaixonado por esportes e pela arte de contar boas histórias, sou jornalista com experiência em
+                    diferentes áreas e agora estou focado em seguir carreira no jornalismo esportivo. Acredito no
+                    poder
+                    da informação bem contada e estou sempre em busca de desafios que me permitam crescer e fazer a
+                    diferença dentro e fora das quatro linhas.</p>
+            </div>
+        </div>
+
+        <div class="about section-light" id="about">
+            <h2>Sobre mim</h2>
+            <p>Com formação em Jornalismo pela Universidade Santa Cecília e experiência multifacetada na comunicação,
+                atuo na intersecção entre esporte, imprensa e produção de conteúdo. Minha trajetória inclui desde a
+                cobertura esportiva em programas como 'Na Onda do Esporte' (ISTV) até a assessoria de comunicação na
+                Prefeitura Municipal de Guarujá, onde produzi releases, atendi à imprensa e gerenciei pautas para o
+                Diário Oficial. Além disso, tive a oportunidade de trabalhar como Social Media no Instituto Casa de Luz,
+                onde desenvolvi estratégias de conteúdo digital e engajamento nas redes sociais.</p>
+            <p>Vamos Conversar?</p>
+        </div>
+
+        <div class="articles section-dark" id="articles">
+            <h2>Reportagens</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/Reportagem1.jpg" alt="Bruna Brasil comemorando">
+                    <h3>Bruna Brasil conquista primeira vitória no UFC</h3>
+                    <p>Guarujaense Bruna Brasil vence irlandesa no UFC em Londres por decisão unânime, marcando sua
+                        primeira vitória na organização.</p>
+                    <a href="https://www.guaruja.sp.gov.br/bruna-brasil-conquista-primeira-vitoria-no-ufc"
+                        target="_blank">Ver Reportagem</a>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/Reportagem2.jpg"
+                        alt="Atleta de Guarujá conquistou o Open ITF BT100 de Beach Tênis em Belo Horizonte">
+                    <h3>Atleta de Guarujá conquistou o Open ITF BT100 de Beach Tênis</h3>
+                    <p>Renzo Amancio faturou o título e 100 pontos no ranking mundial junto ao seu parceiro Felipe Loch,
+                        de Porto Alegre – RS</p>
+                    <a href="https://www.guaruja.sp.gov.br/atleta-de-guaruja-conquistou-o-open-itf-bt100-de-beach-tenis-em-belo-horizonte"
+                        target="_blank">Ver Reportagem</a>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/Reportagem3.jpg" alt="5ª edição da Cãominhada Solidária acontece neste domingo">
+                    <h3>5ª edição da Cãominhada Solidária</h3>
+                    <p>Cãominhada Solidária em Guarujá reúne pets e tutores neste domingo (21) na Praia do Tombo, com
+                        arrecadação de ração para animais carentes e expectativa de 6 mil participantes.</p>
+                    <a href="https://www.guaruja.sp.gov.br/5a-edicao-da-caominhada-solidaria-acontece-neste-domingo"
+                        target="_blank">Ver Reportagem</a>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/Reportagem4.jpg"
+                        alt="Charles do Bronx vence Dariush e se aproxima de revanche pelo cinturão">
+                    <h3>Charles do Bronx vence Dariush e se aproxima de revanche pelo cinturão</h3>
+                    <p>Charles do Bronx nocauteia americano no UFC 289 e se consolida como favorito a disputar o
+                        cinturão dos leves novamente.</p>
+                    <a href="https://www.guaruja.sp.gov.br/charles-do-bronx-vence-dariush-e-se-aproxima-de-revanche-pelo-cinturao"
+                        target="_blank">Ver Reportagem</a>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/Reportagem5.jpg" alt="Guarujá recebe primeiro núcleo do Instituto Serginho 10">
+                    <h3>Guarujá recebe primeiro núcleo do Instituto Serginho 10</h3>
+                    <p>O Instituto Serginho 10, organizado pelo ex-líbero da Seleção Brasileira de vôlei, inaugura o
+                        primeiro núcleo da entidade em Guarujá</p>
+                    <a href="https://www.guaruja.sp.gov.br/guaruja-recebe-primeiro-nucleo-do-instituto-serginho-10-nesta-segunda-feira-16"
+                        target="_blank">Ver Reportagem</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact section-light" id="contact">
+            <h2>Contato</h2>
+            <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+                <div class="grupo-form">
+                    <input id="nome" placeholder="Nome" class="campo-form">
+                </div>
+                <div class="grupo-form">
+                    <textarea class="campo-form" placeholder="Digite sua mensagem" id="mensagem" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="botao-form">Enviar Whatsapp</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+<script>
+    function enviarWhats(event) {
+        event.preventDefault()
+
+        const nome = document.getElementById('nome').value;
+        const mensagem = document.getElementById('mensagem').value;
+        const telefone = '5513996231803';
+
+        const texto = `Olá! Me chamo ${nome}, ${mensagem}`
+
+        const msgFormatada = encodeURIComponent(texto)
+
+        const url = `https://wa.me/${telefone}?text=${msgFormatada}`
+
+        window.open(url, '_blank')
+    }
+</script>
+
+</html>
